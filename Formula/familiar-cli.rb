@@ -1,8 +1,8 @@
 class FamiliarCli < Formula
   desc "Local-first coding agent companion server and hook CLI"
   homepage "https://github.com/Monster12138/familiar"
-  url "https://github.com/Monster12138/familiar/archive/refs/tags/v2.0.1.tar.gz"
-  sha256 "c9edf6ab10b44d6793a72c7d3534d7e1472f9656b712c580ed1d15777de6c62d"
+  url "https://github.com/Monster12138/familiar/archive/refs/tags/v2.4.0.tar.gz"
+  sha256 "d626e69d03b0a5eefd0c45ba863cb069fcbe95f4784b76f5857271e308b856f0"
   license "MIT"
 
   depends_on "openssl@3" => :build if OS.linux?
