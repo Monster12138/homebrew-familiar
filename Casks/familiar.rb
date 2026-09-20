@@ -1,6 +1,6 @@
 cask "familiar" do
-  version "2.4.0"
-  sha256 arm: "beff1d49b26935e3f025dc94f278a5b88e3815e1f13c77f6d9574a7c0143bc91", intel: "83f4f18ad4a3206788555271c660fa602ca874f3d6bde26025d9954ca7b9df2f"
+  version "2.4.1"
+  sha256 arm: "5376ff7fff11641d6803e9f87ebb85e5cc13ecde99d49532c30ddf1eded03e33", intel: "bbe3b4c4403e722919896625edc986c338a849f3833a73236c4ce54bf4ffc668"
 
   on_arm do
     url "https://github.com/Monster12138/familiar/releases/download/v#{version}/Familiar_#{version}_macos_aarch64.dmg"
